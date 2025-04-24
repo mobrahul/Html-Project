@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    text-align: center;
+    background: linear-gradient(135deg, #ff9800, #ff5722);
+    color: white;
+    padding: 1rem;
+    text-transform: uppercase;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+img.banner {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+}
+nav, .footer-nav {
+    background: linear-gradient(135deg, #ff9800, #ff5722);
+    padding: 1rem;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 1rem auto;
+    max-width: 80%;
+}
+
+nav a, .footer-nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s, transform 0.3s;
+}
+
+nav a:hover, .footer-nav a:hover {
+    color: #ffe082;
+    transform: scale(1.1);
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.related-recipes ul {
+    list-style: none;
+    padding: 0;
+}
+
+.related-recipes li {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.related-recipes img {
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+.related-recipes a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.box {
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    margin-top: 2rem;
+}
